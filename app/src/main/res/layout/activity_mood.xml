@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEDE5"
+    tools:context=".MoodActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_alignParentTop="true"
+        >
+
+        <ImageButton
+            android:id="@+id/logOut"
+            android:layout_width="70sp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_back"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:onClick="goToLogin"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mood"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="75dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="27sp"
+            android:layout_marginTop="20sp"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="100sp"
+        android:layout_marginTop="90sp"
+        android:gravity="center">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/happy_animation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.7"
+            android:layout_marginLeft="15dp"
+            app:lottie_rawRes="@raw/happy"
+            app:lottie_loop="false"
+            app:lottie_autoPlay="false"
+            android:layout_marginRight="16dp"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/sad_animation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.6"
+            app:lottie_rawRes="@raw/sad"
+            android:layout_marginLeft="15dp"
+            app:lottie_loop="false"
+            app:lottie_autoPlay="false"
+            android:layout_marginRight="16dp"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/angry_animation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="15dp"
+            app:lottie_rawRes="@raw/angry"
+            app:lottie_loop="false"
+            app:lottie_autoPlay="false"
+            android:layout_marginRight="16dp"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/calm_animation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+            app:lottie_rawRes="@raw/calm"
+            android:layout_marginLeft="15dp"
+            app:lottie_loop="false"
+            app:lottie_autoPlay="false"
+            android:layout_marginRight="16dp"/>
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lovestruck_animation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.3"
+            app:lottie_rawRes="@raw/lovestruck"
+            android:layout_marginLeft="15dp"
+            app:lottie_loop="false"
+            app:lottie_autoPlay="false"
+            android:layout_marginRight="16dp"/>
+    </LinearLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:elevation="2dp"
+        android:background="@drawable/round_corner"
+        app:itemRippleColor="@android:color/transparent"
+        app:itemIconSize="30sp"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu"
+        android:layout_alignParentBottom="true"
+        app:itemTextColor="#7B6F72"
+        app:labelVisibilityMode="unlabeled"
+        />
+
+</RelativeLayout>

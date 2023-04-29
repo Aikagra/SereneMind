@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/chatItem"
+        android:title="Chat"
+        android:icon="@drawable/ic_community"
+        />
+
+    <item
+        android:id="@+id/homeItem"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        />
+
+    <item
+        android:id="@+id/articleItem"
+        android:title="Articles"
+        android:icon="@drawable/ic_baseline_web_24"
+        />
+
+    <item
+        android:id="@+id/moodItem"
+        android:title="Mood"
+        android:icon="@drawable/ic_emoji"
+        />
+
+
+</menu>

@@ -20,13 +20,12 @@
         android:id="@+id/welcome_user"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome, Aikagra"
-        android:textColor="#1D1617"
-        android:textStyle="bold"
-        android:textSize="25sp"
-        android:layout_centerHorizontal="true"
         android:layout_below="@+id/vec_success"
-        />
+        android:layout_centerHorizontal="true"
+        android:text="Welcome"
+        android:textColor="#1D1617"
+        android:textSize="25sp"
+        android:textStyle="bold" />
     <TextView
         android:layout_width="300dp"
         android:layout_marginTop="10dp"
@@ -34,7 +33,7 @@
         android:textAlignment="center"
         android:text="You are all set now, now let's work on becoming the best versions of ourselves"
         android:textColor="#7B6F72"
-        android:textSize="15sp"
+        android:textSize="12sp"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/welcome_user"
         />

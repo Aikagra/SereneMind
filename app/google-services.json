@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "94683339718",
+    "project_id": "ion-2023",
+    "storage_bucket": "ion-2023.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:94683339718:android:d05c422ad8526f05b770c7",
+        "android_client_info": {
+          "package_name": "com.example.ion_2023"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "94683339718-g0b7lvb0m7190f33q66db26finvudf7s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGdybY3rnzWHxa6Q6vhNc0MElQYh6WTac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "94683339718-g0b7lvb0m7190f33q66db26finvudf7s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

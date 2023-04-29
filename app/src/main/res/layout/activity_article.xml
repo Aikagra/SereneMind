@@ -5,7 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFEDE5"
-    tools:context=".HomeActivity">
+    tools:context=".ArticleActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:lottie_rawRes="@raw/loading"
+        app:lottie_autoPlay="true"
+        android:elevation="5dp"
+        android:paddingBottom="50dp"
+        app:lottie_loop="true"
+        />
+
+    <WebView
+        android:id="@+id/webViewArticle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavBar"
