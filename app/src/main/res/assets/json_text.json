@@ -1,0 +1,55 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "How often do you feel anxious or nervous?",
+      "answers": [
+        "Never",
+        "Rarely",
+        "Sometimes",
+        "Often",
+        "Very often"
+      ]
+    },
+    {
+      "id": 2,
+      "question": "How often do you feel sad or depressed?",
+      "answers": [
+        "Never",
+        "Rarely",
+        "Sometimes",
+        "Often",
+        "Very often"
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Do you have trouble sleeping?",
+      "answers": [
+        "No",
+        "Yes, occasionally",
+        "Yes, frequently",
+        "Yes, every night"
+      ]
+    },
+    {
+      "id": 4,
+      "question": "How would you rate your stress level?",
+      "answers": [
+        "Low",
+        "Moderate",
+        "High",
+        "Very high"
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Do you experience panic attacks?",
+      "answers": [
+        "No",
+        "Yes, occasionally",
+        "Yes, frequently"
+      ]
+    }
+  ]
+}
