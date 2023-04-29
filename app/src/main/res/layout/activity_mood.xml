@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="70sp"
         android:layout_alignParentTop="true"
+        android:background="#FFEDE5"
         >
 
         <ImageButton
