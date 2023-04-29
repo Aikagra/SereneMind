@@ -81,4 +81,9 @@ public class ArticleActivity extends AppCompatActivity {
         super.onBackPressed();
         }
     }
+
+    public void goToLogin(View view) {
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
+    }
 }

@@ -8,12 +8,49 @@
     android:background="#FFEDE5"
     tools:context=".ChatActivity">
 
+    <LinearLayout
+        android:id="@+id/linearLayout123"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_alignParentTop="true"
+        >
+
+        <ImageButton
+            android:layout_width="70sp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_back"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:onClick="goToLogin"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chat"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="75dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="27sp"
+            android:layout_marginTop="20sp"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/recycler_view"
         android:layout_above="@id/bottom_layout"
-        />
+        android:layout_below="@id/linearLayout123" />
 
     <RelativeLayout
         android:layout_width="match_parent"

@@ -7,6 +7,45 @@
     android:background="#FFEDE5"
     tools:context=".ArticleActivity">
 
+    <LinearLayout
+        android:id="@+id/linearLayout12"
+        android:layout_width="match_parent"
+        android:layout_height="70sp"
+        android:layout_alignParentTop="true"
+        >
+
+        <ImageButton
+            android:layout_width="70sp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_back"
+            android:background="@drawable/round_corner"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:onClick="goToLogin"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Article"
+            android:textAlignment="textStart"
+            android:layout_marginLeft="75dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="27sp"
+            android:layout_marginTop="20sp"
+
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/lottieLoading"
         android:layout_width="wrap_content"
@@ -23,6 +62,7 @@
         android:id="@+id/webViewArticle"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout12"
         />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView

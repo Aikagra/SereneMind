@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
@@ -79,5 +80,10 @@ public class ChatActivity extends AppCompatActivity {
             chatAdapter.notifyDataSetChanged();
             messageEditText.setText("");
         }
+    }
+
+    public void goToLogin(View view) {
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
     }
 }
